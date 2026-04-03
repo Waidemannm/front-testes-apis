@@ -27,7 +27,7 @@ Interface visual para testar todos os endpoints da API de Pokémons publicada no
 
 ```bash
 # 1. Clone o repositório ou descompacte o projeto
-cd pokemon-tester
+cd teste-pokemon
 
 # 2. Instale as dependências
 npm install
