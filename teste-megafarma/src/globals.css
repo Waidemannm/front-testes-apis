@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root { 
+  scroll-behavior: smooth;
+  --font-base: "Roboto", sans-serif;
+  --color-font-black: #1e1e1eea;
+  --color-1: #02103D;
+  --color-2: #013668;
+  --color-3: #00566D;
+}
+ 
+html,
+body {
+  @apply h-screen overflow-x-hidden w-full;
+}
+
+@layer base {
+  .app-container {
+    @apply flex flex-col min-h-screen justify-between w-full;
+    font-family: var(--font-base);
+  }
+  main {
+    @apply  w-full overflow-y-auto overflow-x-hidden;
+  }
+
+  header{
+    @apply bg-[var(--color-2)];
+  }
+}
